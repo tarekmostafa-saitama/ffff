@@ -38,7 +38,7 @@ img.onload = () => {
    
     var dataURL = canvas.toDataURL("image/jpeg", 1.0);
 
-    downloadImage(dataURL, 'my-canvas.jpeg');
+    downloadImage(dataURL, "Omraniyoun2022_tahneah.jpeg");
    
 }
 
