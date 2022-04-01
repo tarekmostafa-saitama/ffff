@@ -1,0 +1,50 @@
+
+body {
+    font-family:   'Cairo', sans-serif;
+    background: url('/imgs/back.png');
+    background-position: center;
+    background-repeat: repeat;
+
+   
+    direction: rtl;
+    color: #757575;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+a {
+    color: #727272;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+}
+
+footer p {}
+
+.site-logo {
+    max-width: 275px;
+}
+
+.home {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.right {
+    text-align: right;
+}
+
+.imgs {
+    width: 60%;
+
+    border: #dddddd 1px solid;
+}
