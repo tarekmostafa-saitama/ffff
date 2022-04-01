@@ -52,10 +52,8 @@ function getUrlParameter(name) {
 
 
 
-function downloadImage(data, filename = 'untitled.jpeg') {
-    document.querySelector("#downloadImg").setAttribute("href",data);
-    document.querySelector("#downloadImg").setAttribute("download",filename);
-    document.querySelector('#downloadImg').click();
-
-  
+function downloadImage(data, filename = "Omraniyoun2022_tahneah.jpeg") {
+  document.querySelector("#downloadImg").setAttribute("href", data);
+  document.querySelector("#downloadImg").setAttribute("download", filename);
+  document.querySelector("#downloadImg").click();
 }
