@@ -17,7 +17,7 @@ img.onload = () => {
     context.drawImage(img, 0, 0, 800, 1145);
     context.stroke();
 
-    context.font = 'bold 20pt Cairo';
+    context.font = 'bold 26pt Cairo';
     context.textAlign = 'center';
 
     let text = getUrlParameter('name');
