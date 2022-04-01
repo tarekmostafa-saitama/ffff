@@ -14,7 +14,7 @@ img.onload = () => {
     // }
     img.width = 700;
     img.height = 800;
-    context.drawImage(img, 0, 0, 700, 800);
+    context.drawImage(img, 0, 0, 800, 1145);
     context.stroke();
 
     context.font = 'bold 20pt Cairo';
@@ -23,7 +23,7 @@ img.onload = () => {
     let text = getUrlParameter('name');
     if(getUrlParameter('img') == '1'){
         context.fillStyle = 'black';
-        context.fillText(text,  360, 420);
+        context.fillText(text,  420, 600);
         context.fillStyle = '#802429';
         // context.fillText('محبكم',  575, 680);
     }else{
